@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UserBusinessLayer\UserBusinessLayer.csproj" />
+    <ProjectReference Include="..\UserDataLayer\UserDataLayer.csproj" />
+    <ProjectReference Include="..\UserModel\UserModel.csproj" />
+  </ItemGroup>
+
+</Project>
