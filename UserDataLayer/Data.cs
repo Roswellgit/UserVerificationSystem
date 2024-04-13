@@ -12,9 +12,9 @@ namespace UserDataLayer
         }
         private void CreateDummyData()
         {
-            Model user1 = new Model { userID = "DNTE-1337", pass = "Durante" };
-            Model user2 = new Model { userID = "DNQX-SUEN", pass = "SuenoImposible" };
-            Model user3 = new Model { userID = "OTIS-4532", pass = "Odyssey" };
+            Model user1 = new Model { userID = "DNTE-DRNT", pass = "Durante" };
+            Model user2 = new Model { userID = "VRGL-CHRN", pass = "RedGaze" };
+            Model user3 = new Model { userID = "OTIS-ODYS", pass = "Odyssey" };
 
             dummyUser.Add(user1);
             dummyUser.Add(user2);   
